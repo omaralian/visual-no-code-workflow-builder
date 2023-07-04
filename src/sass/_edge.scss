@@ -1,0 +1,21 @@
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  user-select: none;
+  pointer-events: none;
+}
+
+.edge {
+  animation: dash 5s linear;
+  animation-iteration-count: infinite;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: -64;
+    }
+  }

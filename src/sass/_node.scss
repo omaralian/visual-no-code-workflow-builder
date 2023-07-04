@@ -1,0 +1,12 @@
+.node {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    opacity: 0.9;
+
+    &.dragging {
+        opacity: 0.5;
+    }
+}
